@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+ height: 100%;
+ margin:0;
+ padding:0;
+ font-weight: bolder;
+}
+h1{
+    font-size: 45px;     
+    line-height: 60px;
+    padding: 0 60px;
+}
+h2{
+    font-size: 30px;     
+    line-height: 40px;
+    padding: 0 60px;
+}

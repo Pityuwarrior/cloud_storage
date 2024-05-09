@@ -1,0 +1,12 @@
+.background_lower_element{
+    aspect-ratio: 960/200;
+    width: 100%;
+    max-height: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/layered-waves-haikei2.svg');
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+}
