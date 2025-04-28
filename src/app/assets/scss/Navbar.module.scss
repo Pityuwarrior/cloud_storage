@@ -19,11 +19,21 @@
         flex-flow: row nowrap;
     }
 
-    .navbar_links{
+    .navbar_item{
         display: inline-block;
         line-height: 60px;
         padding:  0 5px;
         white-space: nowrap;
         flex: 1 1 auto;
+        .navbar_link{
+            text-decoration: none;
+            color:azure;
+            font-weight: lighter;        
+            cursor: pointer;       
+            &:hover{
+                padding-bottom: 3px;
+                border-bottom: 3px solid rgb(255, 0, 0);
+            }    
+        }
     }
 }

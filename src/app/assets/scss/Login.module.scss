@@ -1,0 +1,31 @@
+@import '../scss/utils/FormVariables.scss';
+
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    
+    .LoginContent{
+        padding: 20px;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .LoginForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        gap: 20px;
+        background-color: rgb(50, 50, 50);
+        border-radius: 2rem;
+    
+        .LoginUsername, .LoginPassword { 
+            @include TextbarStyle;
+        }        
+    }  
+}

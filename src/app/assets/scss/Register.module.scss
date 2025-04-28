@@ -1,25 +1,32 @@
-.register_container{
+@import '../scss/utils/FormVariables';
+
+.RegisterContainer{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    gap:10px;
-    margin: 13%;
-    padding: 10%;
-    max-width: 80%;;
-    background-color: rgb(50, 50, 50);
-
-    .register_title{
-
-    }
-    .register_description{
-
-    }
-    .register_content{
+    height: 80vh;
+    
+    .RegisterContent{
         padding: 20px;
         border-radius: 1rem;
         margin-bottom: 1rem;
         text-align: center;
     }
+        .RegisterForm{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            gap: 20px;
+            background-color: rgb(50, 50, 50);
+            border-radius: 2rem;
+
+     
+            .RegisterUsername, .RegisterEmail, .RegisterPassword, .RegisterPasswordAgain{ 
+                @include TextbarStyle;
+            }
+    }  
 }
